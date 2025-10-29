@@ -27,7 +27,7 @@ uv pip install -r requirements.txt
 
 # Run the service
 echo ""
-echo "🚀 Starting Notification Service..."
+echo "   Starting Notification Service..."
 echo "   API: http://localhost:8000"
 echo "   Docs: http://localhost:8000/docs"
 echo ""
