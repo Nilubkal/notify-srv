@@ -21,12 +21,12 @@ Service runs at `http://localhost:8000` • Docs at `http://localhost:8000/docs`
 # Send Warning (forwards to Teams if configured)
 curl -X POST http://localhost:8000/notifications \
   -H "Content-Type: application/json" \
-  -d '{"Type":"Warning","Name":"Test Alert","Description":"Test warning"}'
+  -d '{"Type":"Warning","Name":"Backup Failure","Description":"The backup failed due to a database problem"}'
 
 # Send Info (stored only, not forwarded)
 curl -X POST http://localhost:8000/notifications \
   -H "Content-Type: application/json" \
-  -d '{"Type":"Info","Name":"Status","Description":"All good"}'
+  -d '{"Type":"Info","Name":"Quota exceeded","Description":"Compute Quota exceeded"}'
 
 # Check stats
 curl http://localhost:8000/stats
