@@ -99,18 +99,18 @@ if __name__ == "__main__":
     setup_function()
     test_health_check()
     teardown_function()
-    print("✓ Test 1 passed")
+    print("Test 1 passed")
     
     print("\nRunning test 2: Warning notification...")
     setup_function()
     test_create_warning_notification()
     teardown_function()
-    print("✓ Test 2 passed")
+    print("Test 2 passed")
     
     print("\nRunning test 3: Info notification...")
     setup_function()
     test_create_info_notification()
     teardown_function()
-    print("✓ Test 3 passed")
+    print("Test 3 passed")
     
-    print("\n✅ All 3 tests passed!")
+    print("\n All 3 tests passed!")
